@@ -22,7 +22,6 @@ test.getLoginEmail().type(this.data.email)
 test.getLoginPassword().type(this.data.password)
 test.getLoginButton().click()
 
-// returning false here prevents Cypress from
-        // failing the test
+
 })
 })
