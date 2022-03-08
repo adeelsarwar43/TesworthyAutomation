@@ -4,7 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": " node_modules//.bin//cypress run"
+    "open": " npx cypress open",
+    "folder": " npx cypress run",
+    "folder-headed": " npx cypress run --headed",
+    "folder-chrome": " npx cypress run --browser chrome"
+
   },
   "author": "",
   "license": "ISC",
