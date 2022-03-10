@@ -7,7 +7,8 @@
     "open": " npx cypress open",
     "folder": " npx cypress run",
     "folder-headed": " npx cypress run --headed",
-    "folder-chrome": " npx cypress run --browser chrome"
+    "folder-chrome": " npx cypress run --browser chrome",
+    "test-main": "cypress run --spec 'cypress/integration/Testworthy/main.js' --headed --browser chrome"
 
   },
   "author": "",
