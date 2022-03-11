@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "open": " npx cypress open",
-    "folder": " npx cypress run",
+    "folder": " npx cypress run --record --key 2ea500cb-f4ba-4f26-a1bf-f0cd506f548f",
     "folder-headed": " npx cypress run --headed",
     "folder-chrome": " npx cypress run --browser chrome",
     "test-main": "cypress run --spec 'cypress/integration/Testworthy/main.js' --headless --browser chrome"
