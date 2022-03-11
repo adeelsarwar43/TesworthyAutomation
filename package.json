@@ -9,11 +9,11 @@
     "folder-headed": " npx cypress run --headed",
     "folder-chrome": " npx cypress run --browser chrome",
     "test-main": "cypress run --spec 'cypress/integration/Testworthy/main.js' --headed --browser chrome"
-
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^9.5.1"
+    "cypress": "^9.5.1",
+    "cypress-xpath": "^1.6.2"
   }
 }
