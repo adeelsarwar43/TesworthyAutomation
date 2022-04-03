@@ -23,7 +23,6 @@ import './commands'
 
 // Remove extra logs 
 Cypress.Server.defaults({
-    whitelist: (xhr) => {
-        return true;
-    }
+    
+ ignore: xhr => true   
 })
