@@ -1,7 +1,9 @@
 /// <reference types= "Cypress" />
+import { each } from "cypress/types/bluebird";
 import Test from "../../support/Classes/Test";
 describe('Testworthy Smoke Testing', function()
 {
+     
      beforeEach(function() {
  // runs once before all tests in the block
     cy.visit('https://testworthy.us/')
