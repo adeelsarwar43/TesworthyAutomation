@@ -13,7 +13,7 @@ describe('Testworthy Smoke Testing', function()
        })
        Cypress.on('uncaught:exception', (err, runnable) => {
         // returning false here prevents Cypress from
-        
+        // Snack Chat Session
         return false
       })
 it('Login',function() {
